@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { ActivitiesComponent } from './activities/activities.component';
 import { AccountComponent } from './account.component';
-import { DataTableModule, SharedModule, PaginatorModule } from 'primeng/primeng';
+import { DataTableModule, SharedModule, DropdownModule } from 'primeng/primeng';
 import * as MySharedModule from 'app/shared/shared.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   imports: [
-    CommonModule,
     DataTableModule,
     SharedModule,
-    PaginatorModule,
+    DropdownModule,
+    BrowserAnimationsModule,
     MySharedModule.SharedModule
   ],
   declarations: [ActivitiesComponent, AccountComponent],
