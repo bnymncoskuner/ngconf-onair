@@ -4,6 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { AccountModule } from './account/account.module';
+import { SharedModule } from './shared/shared.module';
+
+import 'rxjs/add/operator/map';
 
 @NgModule({
   declarations: [
@@ -12,7 +16,9 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AccountModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
