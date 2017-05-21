@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { AccountModule } from './account/account.module';
 import { SharedModule } from './shared/shared.module';
+import { LayoutModule } from "app/layout/layout.module";
 
 import 'rxjs/add/operator/map';
 
@@ -17,7 +18,7 @@ import 'rxjs/add/operator/map';
     BrowserModule,
     FormsModule,
     HttpModule,
-    AccountModule,
+    LayoutModule,
     SharedModule
   ],
   providers: [],

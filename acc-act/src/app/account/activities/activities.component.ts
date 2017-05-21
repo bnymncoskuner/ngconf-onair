@@ -34,6 +34,4 @@ export class ActivitiesComponent implements OnInit {
       this.getData();
     }
   }
-  
-
 }
