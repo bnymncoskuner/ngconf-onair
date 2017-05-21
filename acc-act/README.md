@@ -1,4 +1,6 @@
 # AccAct
+This is final version of the demo project shown in my onair presentation.
+Do not forget to npm install on project folder after you download it.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.3.
 
