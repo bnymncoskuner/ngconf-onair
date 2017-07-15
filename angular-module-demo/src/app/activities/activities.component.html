@@ -1,0 +1,7 @@
+<h3>Account Activities</h3>
+<p-dropdown [options]="years" [(ngModel)]="selectedYear"></p-dropdown>
+<p-dataTable [value]="data" [rows]="4" [paginator]="true" pageLinks="3">
+    <p-column field="date" header="Date"></p-column>
+    <p-column field="explanation" header="Explanation"></p-column>
+    <p-column field="amount" header="Amount"></p-column>
+</p-dataTable>
